@@ -1,0 +1,8 @@
+# Maintainer: David Stelter <david.stelter@gmail.com>
+
+pkgbase='wake-compiler'
+pkgname='wake-compiler'
+pkgver=v0.0.3
+pkgdesc='a programming language with inbuilt testability and modern features'
+url='http://www.wakelang.com'
+license=('MIT')
