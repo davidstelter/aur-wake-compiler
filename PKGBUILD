@@ -7,7 +7,7 @@ pkgdesc='a programming language with inbuilt testability and modern features'
 arch=('x86_64')
 url='http://www.wakelang.com'
 license=('MIT')
-makedepends=('git' 'boost' 'flex' 'bison')
+makedepends=('git' 'boost' 'flex' 'bison' 'make' 'gcc' 'sed')
 source=('git+https://github.com/MichaelRFairhurst/wake-compiler.git')
 md5sums=('SKIP')
 
