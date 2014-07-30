@@ -15,7 +15,7 @@ _gitname=wake-compiler
 
 build() {
     cd $srcdir/$_gitname
-	git co $pkgver
+	git checkout $pkgver
 	# don't link against flex, leads to unresolved symbol yylex
 	sed -i 's/-lfl//' makefile
     make TEST=false bin/wake
